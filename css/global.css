@@ -1,0 +1,60 @@
+/* * {
+  border: 2px dotted red;
+}
+ */
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* navigation css */
+
+.navigation {
+  display: flex;
+  width: 100%;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.navigation-item {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-item--links {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-left: 2rem;
+  color: black;
+  flex-direction: row;
+}
+
+.navigation-item--logo {
+  vertical-align: middle;
+  color: #335576;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+/* for now */
+img {
+  height: 200px;
+  width: 200px;
+}
