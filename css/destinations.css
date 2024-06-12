@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+}
+/* Destination background images */
+.Schedule--greece {
+  background-image: url(../assets/Images/greece.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Schedule--hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Schedule--iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Schedule--text {
+  color: white;
+  font-size: 8rem;
+  margin: 0;
+}
