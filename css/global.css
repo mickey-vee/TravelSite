@@ -96,14 +96,25 @@ img {
 .footer__item--text {
   color: #335576;
   font-size: 1.5rem;
+  align-self: baseline;
 }
 
 .footer__item--image {
   width: 2.5rem;
   height: 2.5rem;
-  pad: 0.5rem;
+  padding-right: 3rem;
 }
 
 .test {
+  display: flex;
+}
+
+.test2 {
+  text-align: left;
+  padding-right: 2rem;
+  width: 20rem;
+}
+
+.footer__icons {
   display: flex;
 }
