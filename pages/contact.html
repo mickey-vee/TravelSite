@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <header>
+    <!-- Navigation -->
+    <nav class="navigation">
+      <div class="navigation-box">
+        <a href="../index.html">
+          <span class="navigation-item--logo">Travel site</span>
+        </a>
+      </div>
+      <div class="navigation-box">
+        <ul class="navigation-item">
+          <li>
+            <a href="../index.html" class="navigation-item--links">Home</a>
+          </li>
+          <li>
+            <a href="./hawaii.html" class="navigation-item--links">Hawaii</a>
+          </li>
+          <li>
+            <a href="./iceland.html" class="navigation-item--links">Iceland</a>
+          </li>
+          <li>
+            <a href="./greece.html" class="navigation-item--links">Greece</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <section class="contact">
+      <div class="contact-items">
+        <p class="contact-title">Contact us</p>
+        <div>
+          <p class="contact-text">
+            Please provide your contact information along with any additional
+            details. We look forward to helping you plan your perfect trip!
+          </p>
+        </div>
+        <!-- form -->
+        <div class="form">
+          <form class="form-fill">
+            <label for="fname">Name:</label>
+            <input type="text" id="name" name="name" /><br />
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" /><br />
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" /><br />
+            <label for="destination">Destination:</label>
+            <select name="Destination" id="dest">
+              <br />
+              <option value="Hawaii">Hawaii</option>
+              <option value="Iceland">Iceland</option>
+              <option value="Greece">Greece</option></select
+            ><br />
+            <label for="comment">Comments:</label>
+            <input type="text" id="comment" name="comment" /><br />
+            <br />
+            <br />
+
+            <input type="submit" value="Submit" class="submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <section class="footer__item">
+        <h3 class="footer__item--title">Contact</h3>
+        <div class="footer-hours--subtitle">Email</div>
+        <div class="footer-hours--text">info@travelsite.com</div>
+      </section>
+
+      <section class="footer__item">
+        <h3 class="footer__item--title">Hours</h3>
+        <div class="footer-hours">
+          <div class="footer-days">
+            <p class="footer-hours--subtitle">Monday - Friday</p>
+            <p class="footer-hours--text">9:00AM - 5:00 PM</p>
+          </div>
+          <div class="footer-days">
+            <p class="footer-hours--subtitle">Saturday</p>
+            <p class="footer-hours--text">10:00AM - 4:00PM</p>
+          </div>
+          <div class="footer-days">
+            <p class="footer-hours--subtitle">Sunday</p>
+            <p class="footer-hours--text">Closed</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer__item">
+        <h3 class="footer__item--title">Social</h3>
+        <div class="footer__icons">
+          <div>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img
+                src="../assets/Icons/icon-instagram.png"
+                class="footer__item--image"
+                alt="Instagram"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com" target="_blank"
+              ><img
+                src="../assets/Icons/icon-facebook.png"
+                class="footer__item--image"
+                alt="Facebook"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.twitter.com" target="_blank"
+              ><img
+                src="../assets/Icons/icon-twitter.png"
+                class="footer__item--image"
+                alt="Twitter"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  background-image: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 8rem;
+}
+
+.contact-title {
+  font-size: 3.5rem;
+  color: #335576;
+  padding: 1rem;
+  margin: 0;
+}
+
+.contact-text {
+  font-size: 1.5rem;
+  width: 80%;
+  padding: 1rem 0;
+  margin: auto;
+}
+
+.contact-items {
+  width: 50rem;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background-color: #fefaf5;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.form-fill {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: left;
+  padding: 2rem 0;
+}
+
+.submit {
+  color: white;
+  background-color: #db7a4e;
+  font-size: 2rem;
+  border: none;
+  border-radius: 3rem;
+  width: 15rem;
+  height: 5rem;
+  align-self: center;
+}
+
+#comment {
+  height: 10rem;
+}
+
+label,
+select {
+  font-size: 1.5rem;
+}
