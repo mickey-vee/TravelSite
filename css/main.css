@@ -52,6 +52,7 @@ button {
   border: none;
   padding: 1rem 5rem;
   border-radius: 5rem;
+  cursor: pointer;
 }
 
 /* Recommendation section and cards */
@@ -96,18 +97,18 @@ button {
 }
 
 .hawaii {
-  background-image: url(/assets/Images/hawaii.jpg);
+  background-image: url(../assets/Images/hawaii.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .iceland {
-  background-image: url(/assets/Images/iceland.jpg);
+  background-image: url(../assets/Images/iceland.jpg);
   background-size: cover;
   background-position: center;
 }
 .greece {
-  background-image: url(/assets/Images/greece.jpg);
+  background-image: url(../assets/Images/greece.jpg);
   background-size: cover;
   background-position: center;
 }

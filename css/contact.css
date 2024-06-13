@@ -51,6 +51,7 @@
   width: 15rem;
   height: 5rem;
   align-self: center;
+  cursor: pointer;
 }
 
 #comment {
