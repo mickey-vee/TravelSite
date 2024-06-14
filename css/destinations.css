@@ -40,8 +40,8 @@ body {
   padding-top: 8rem;
 }
 
-/* Recommendation section and cards */
-.recommendations {
+/* Schedule cards */
+.schedule {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -49,12 +49,13 @@ body {
   margin: auto;
 }
 
-.recommendation-area {
+.schedule-area {
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 8rem;
+  height: 100%;
 }
 
-.recommendations {
+.scheduling {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -62,11 +63,11 @@ body {
   flex-direction: row;
 }
 
-.recommendation-card {
+.schedule-card {
   display: flex;
   border: 0.1rem solid rgba(0, 0, 0, 0.25);
-  width: 28rem;
-  height: 40rem;
+  width: 25%;
+  height: 45rem;
   text-align: center;
   background-color: #fff;
   border-radius: 0.5rem;
