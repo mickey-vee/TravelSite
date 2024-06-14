@@ -28,6 +28,10 @@ body {
 }
 
 /* Schedule */
+.schedule {
+  padding-top: 8rem;
+}
+
 .Schedule--text {
   color: white;
   font-size: 8rem;
