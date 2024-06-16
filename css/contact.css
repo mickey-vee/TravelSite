@@ -54,6 +54,10 @@
   cursor: pointer;
 }
 
+.submit:hover {
+  background-color: #db7b4edc;
+}
+
 #comment {
   height: 10rem;
 }
@@ -61,8 +65,4 @@
 label,
 select {
   font-size: 1.5rem;
-}
-
-.submit:hover {
-  background-color: #db7b4edc;
 }

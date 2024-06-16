@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 /* Destination background images */
-.Schedule--greece {
+.destination--greece {
   background-image: url(../assets/Images/greece.jpg);
   background-size: cover;
   background-position: center;
@@ -11,7 +11,7 @@ body {
   padding-top: 8rem;
 }
 
-.Schedule--hawaii {
+.destination--hawaii {
   background-image: url(../assets/Images/hawaii.jpg);
   background-size: cover;
   background-position: center;
@@ -19,7 +19,7 @@ body {
   padding-top: 8rem;
 }
 
-.Schedule--iceland {
+.destination--iceland {
   background-image: url(../assets/Images/iceland.jpg);
   background-size: cover;
   background-position: center;
@@ -27,12 +27,12 @@ body {
   padding-top: 8rem;
 }
 
-/* Schedule */
-.schedule {
+/* Destination */
+.destination {
   padding-top: 8rem;
 }
 
-.Schedule--text {
+.destination--text {
   color: white;
   font-size: 8rem;
   margin: 0;
@@ -55,7 +55,7 @@ body {
   height: 100%;
 }
 
-.scheduling {
+.schedule {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -76,7 +76,7 @@ body {
   padding: 1rem 0;
 }
 
-.schedule--activity {
+.schedule-card--activity {
   display: flex;
   flex-direction: column;
   font-size: 2.5rem;
@@ -87,7 +87,7 @@ body {
   padding: 2rem 0;
 }
 
-.schedule--day {
+.schedule-card--day {
   border-bottom: 0.5rem solid black;
   font-size: 2.7rem;
   width: 85%;

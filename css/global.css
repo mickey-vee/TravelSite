@@ -41,19 +41,19 @@ h3 {
   position: fixed;
 }
 
-.navigation-item {
+.navigation__item {
   display: flex;
   padding: 0 10rem;
   gap: 2rem;
 }
 
-.navigation-item--links {
+.navigation__item--links {
   font-size: 2rem;
   font-weight: 400;
   color: black;
 }
 
-.navigation-item--links:hover {
+.navigation__item--links:hover {
   font-size: 2rem;
   font-weight: 400;
   color: black;
@@ -64,7 +64,7 @@ h3 {
   border-bottom: solid #db7a4e;
 }
 
-.navigation-item--logo {
+.navigation__item--logo {
   vertical-align: middle;
   color: #335576;
   font-weight: bold;
@@ -97,25 +97,22 @@ h3 {
   padding-bottom: 2.5rem;
 }
 
-.footer-hours--subtitle {
+.footer__item--subtitle {
   color: #db7a4e;
   font-size: 1.2rem;
   margin: 0;
 }
 
-.footer-hours--text {
+.footer__item--text {
   color: #335576;
   font-size: 1.5rem;
   padding-top: 1rem;
   margin: 0;
 }
 
-.footer-hours {
+.footer__item--daily-hours {
   display: flex;
-}
-
-.footer-days:not(:last-child) {
-  margin-right: 6rem;
+  gap: 5rem;
 }
 
 .footer__icons {
@@ -124,7 +121,7 @@ h3 {
   padding-top: 1rem;
 }
 
-.footer__item--image {
+.footer__icon--image {
   display: flex;
   height: 3rem;
   width: auto;
